@@ -20,7 +20,7 @@ except (IOError, ImportError):
 
 package = 'tapioca_meraki'
 requirements = [
-    'tapioca-wrapper<2',
+    'tapioca-wrapper>=2',
 
 ]
 test_requirements = [
